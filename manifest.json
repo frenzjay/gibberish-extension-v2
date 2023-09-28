@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Gibberish Extension v2",
+  "version": "1.0",
+  "description": "I'm very bored",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "scripts": ["gibberish.js"],
+    "persistent": true
+  }
+}
